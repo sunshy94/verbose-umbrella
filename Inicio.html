@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hobi Nails </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  font-family: gotham;
+  font-weight: bolder;
+  float:none;
+  display: inline-flex;
+  color: #f2f2f2;
+  align-content: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 20px;
+  height: 700px; 
+  text-align: center;
+}
+
+body {
+  background-color: #B79BF5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.divsito {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+.center-fit:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:500px;}
+  100% { left:0px; top:0px;}
+}
+
+.cuadro {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: left;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+
+h1 {
+  font-family: Gotham;
+  font-size: 30px;
+}
+
+p{
+  font-family: montserrat;
+  font-size: 18px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="Inicio.html">Hobi Nails</a>
+  <a href="Agenda.html">Portafolio</a>
+  <a href="Nosotros.html">Agenda</a>
+  <a href="https://www.instagram.com/hobi.nails/" style="font-size: 17px;">❤</a>
+</div>
+
+<div class="main">
+  <div class="imgbox">
+    <img class="center-fit" src='logo.png' width="500px">
+  </div>
+</div>
+
+<div style="padding-left: 400px; padding-right: 400px; background-color: white;" >
+<div class="divsito">
+  <div class="cuadro">
+    <div class="image">
+      <img src="a (11).jpeg" style="border-radius: 50%;">
+    </div>
+    <div class="text">
+      <h1>Encuentra tu estilo</h1>
+      <p >En hobi nails queremos brindarte el mejor servicio posible, muestranos tus ideas   y las haremos realidad. <br> <br> Desde 2017 hemos trabajado duro para poder dar el mejor servicio, contamos  <br>con 5 cerificaciones que avalan el conocimiento  de nuestras empleadas y<br> de los servicios que damos, le aseguramos que esta en las mejores manos.</p>
+    </div>
+  </div>
+
+
+  <div class="divsito">
+        <div class="abajito">
+    <h1>Nuestros Servicios</h1>
+    <p class="sub"> Da click aqui para ver nuestros trabajos:</p>
+  </div>
+  <div class="row">
+  <div class="column">
+    <a href="agenda.html"><img src="a (12).jpeg" style="width:100%" > </a>
+  </div>
+  <div class="column">
+    <a href="agenda.html"><img src="a (8).jpeg" style="width:100%"></a>
+  </div>
+  <div class="column">
+    <a href="agenda.html"><img src="a (9).jpeg" style="width:100%">
+  </div>
+  </div>
+</div> 
+</div>
+</div>
+
+ <footer>
+  <div class="foot" style="background-color: #FFE141">
+    <img src="0 (1).png" width="100px" >
+  </div>
+</footer> 
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hobi Nails </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.sisi{
+  padding: 50px;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .column {
+      flex: 33.3%;
+      max-width: 33.3%;
+    }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  font-family: gotham;
+  font-weight: bolder;
+  float:none;
+  display: inline-flex;
+  color: #f2f2f2;
+  align-content: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 20px;
+  height: 900px; 
+  text-align: center;
+}
+
+.abajito {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family: Gotham;
+}
+
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.box{
+padding-top: 100px;
+text-align:center; 
+width: 1000px;
+max-width: 100%;
+max-height: 100vh;
+margin: auto;
+font-family: gotham;
+color: white;
+}
+
+p{
+font-weight: normal;
+font-size: 30px;
+}
+
+h2{
+font-weight: bolder;
+font-size: 30px;
+padding-bottom: 100px;
+}
+
+h1{
+font-weight: bolder;
+font-size: 100px;
+padding-bottom: 100px;
+}
+
+  
+img{
+  max-width: 99%;
+  max-height: 99%;
+}
+
+
+@keyframes big {
+  0%   {width: 1280px;}
+  5%   {width: 1400px;}
+  100% { width: 1280px;}
+}
+
+
+body {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:500px;}
+  100% { left:0px; top:0px;}
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+  padding-top: 100px;
+}
+
+
+.column img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 0.8;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="Inicio.html">Hobi Nails</a>
+  <a href="Agenda.html">Portafolio</a>
+  <a href="Nosotros.html">Agenda</a>
+  <a href="https://www.instagram.com/hobi.nails/" style="font-size: 17px;">❤</a>
+
+</div>
+
+  <div>
+  <img class="logo"  src="p.png">
+</div>   
+
+
+<div class="sisi">
+
+ <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="a (2).jpeg" width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (22).jpeg"width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (3).jpeg"width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (25).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (9).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (20).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (6).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (24).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (15).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (1).jpeg" width="500px;" >
+  </div>
+
+  <div class="column">
+    <img src="a (5).jpeg"width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (18).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (19).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (21).jpeg"width="500px;">
+  </div>
+
+    <div class="column">
+    <img src="a (14).jpeg"width="500px;">
+  </div>
+  <div class="column">
+    <img src="a (16).jpeg"width="500px;" >
+  </div>
+    <div class="column">
+    <img src="a (23).jpeg"width="500px;">
+  </div>
+    <div class="column">
+    <img src="a (7).jpeg" width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (17).jpeg"width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (12).jpeg"width="500px;" >
+  </div>
+  <div class="column">
+    <img src="a (4).jpeg"width="500px;">
+  </div>
+</div>
+
+
+  <div class="abajito">
+    <p>  </p>
+  </div>
+
+
+</div>
+
+
+
+</div>
+ <footer>
+  <div class="foot" style="background-color: #FFE141">
+    <img src="0 (1).png" width="100px" >
+  </div>
+</footer> 
+</body>
+</html>
